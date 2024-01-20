@@ -1,0 +1,36 @@
+{
+  "name": "farmerbackend",
+  "version": "1.0.0",
+  "description": "Backend for the farmer expenses application which uses the react native as the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Farmer",
+    "expenses",
+    "backend"
+  ],
+  "author": "Nishith",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.354.0",
+    "@aws-sdk/s3-request-presigner": "^3.354.0",
+    "apicache": "^1.6.3",
+    "backblaze-b2": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "node": "^19.2.0",
+    "node-cron": "^3.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
+    "validator": "^13.7.0"
+  }
+}
